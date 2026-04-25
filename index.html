@@ -17,6 +17,7 @@
         <li><a href="#mission">Mission</a></li>
         <li><a href="#donate">Donate</a></li>
         <li><a href="#events">Events</a></li>
+        <li><a href="#help">Need Help</a></li>
         <li><a href="#sources">Sources</a></li>
       </ul>
     </nav>
@@ -202,6 +203,40 @@
         </select>
 
         <button type="submit">Submit RSVP</button>
+      </form>
+    </section>
+
+    <section id="help" class="section">
+      <div class="section-head">
+        <h3>Need Help From Our Organization?</h3>
+        <p>Share your situation and our team will follow up with support options and next steps.</p>
+      </div>
+
+      <form class="card action-form" action="#" method="post">
+        <h4>Request Support</h4>
+        <label for="help-name">Full Name</label>
+        <input id="help-name" name="helpName" type="text" placeholder="Your name" required>
+
+        <label for="help-email">Email</label>
+        <input id="help-email" name="helpEmail" type="email" placeholder="you@example.com" required>
+
+        <label for="help-phone">Phone Number (optional)</label>
+        <input id="help-phone" name="helpPhone" type="tel" placeholder="(555) 123-4567">
+
+        <label for="help-type">Type of Help Needed</label>
+        <select id="help-type" name="helpType" required>
+          <option value="" selected disabled>Select an option</option>
+          <option value="legal-guidance">Legal guidance referral</option>
+          <option value="detention-support">Detention support resources</option>
+          <option value="family-support">Family communication support</option>
+          <option value="know-your-rights">Know-your-rights information</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="help-message">Tell Us What You Need</label>
+        <textarea id="help-message" name="helpMessage" rows="5" placeholder="Briefly describe your situation and what support you need." required></textarea>
+
+        <button type="submit">Submit Help Request</button>
       </form>
     </section>
 
