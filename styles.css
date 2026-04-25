@@ -330,7 +330,8 @@ main {
 }
 
 .action-form input,
-.action-form select {
+.action-form select,
+.action-form textarea {
   width: 100%;
   border: 1px solid #cebfa9;
   border-radius: 10px;
